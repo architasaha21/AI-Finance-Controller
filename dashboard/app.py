@@ -11,7 +11,7 @@ import plotly.graph_objects as go
 # CONFIG
 # ============================================================================
 st.set_page_config(
-    page_title="AI Finance Controller — Reconciliation Dashboard",
+    page_title="RazorRecon Finance Control Tower",
     page_icon="💼",
     layout="wide",
     initial_sidebar_state="expanded",
@@ -326,7 +326,7 @@ def verdict_badge_html(verdict):
 # ============================================================================
 def main():
     st.markdown(
-        '<div class="main-title">💼 AI Finance Controller</div>',
+        '<div class="main-title">💼 RazorRecon Finance Control Tower</div>',
         unsafe_allow_html=True,
     )
     st.markdown(

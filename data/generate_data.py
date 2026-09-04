@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Generates a synthetic reconciliation batch for the AI Finance Controller build.
+Generates a synthetic reconciliation batch for the RazorRecon Finance Control Tower.
 
 Outputs (all in ./data/):
   bank_statement.csv     - what the bank says was credited
