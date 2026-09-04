@@ -1,0 +1,22 @@
+{
+  "max_timing_diff_days": 1,
+  "amount_tolerance_rupees": 1.0,
+  "fee_tax_refund_tolerance_rupees": 3.5,
+  "unexplained_variance_review_threshold_rupees": 50,
+  "unexplained_variance_exception_threshold_rupees": 100,
+  "duplicate_ref_auto_accept": false,
+  "split_settlement_allowed": true,
+  "max_split_parts": 3,
+  "min_confidence_auto_accept": 0.85,
+  "min_confidence_review": 0.6,
+
+  "_comments": {
+    "max_timing_diff_days": "settlement landing this many days after ERP entry is normal, no flag",
+    "amount_tolerance_rupees": "bank credit within this of net_amount = exact match, no reasoning needed",
+    "fee_tax_refund_tolerance_rupees": "gap explainable by fee/tax/refund rounding, still auto-acceptable",
+    "unexplained_variance_review_threshold_rupees": "gap above tolerance but below this -> REVIEW, not auto-reject",
+    "unexplained_variance_exception_threshold_rupees": "gap above this with no explanation -> EXCEPTION, never auto-accept",
+    "duplicate_ref_auto_accept": "if a ref_number appears on 2+ bank rows, the matcher may PROPOSE one but the verifier must never auto-accept - always at least REVIEW",
+    "min_confidence_auto_accept": "verifier confidence below this cannot resolve to RECONCILED, even if amount/timing look fine"
+  }
+}
