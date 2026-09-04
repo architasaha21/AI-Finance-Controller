@@ -1,0 +1,40 @@
+{
+  "total_records": 500,
+  "match_rate": 1.0,
+  "confusion_matrix": {
+    "RECONCILED": {
+      "RECONCILED": 440
+    },
+    "REVIEW": {
+      "REVIEW": 49
+    },
+    "EXCEPTION": {
+      "EXCEPTION": 11
+    }
+  },
+  "precision_recall": {
+    "RECONCILED": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "tp": 440,
+      "fp": 0,
+      "fn": 0
+    },
+    "REVIEW": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "tp": 49,
+      "fp": 0,
+      "fn": 0
+    },
+    "EXCEPTION": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "tp": 11,
+      "fp": 0,
+      "fn": 0
+    }
+  },
+  "dangerous_false_positives": 0,
+  "mismatches_by_category": {}
+}

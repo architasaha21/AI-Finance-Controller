@@ -1,0 +1,12 @@
+txn_ref,proposed_bank_ids,matcher_method,matcher_confidence,verifier_verdict,verifier_confidence,reason,escalated_to_llm
+TXN100033,,llm-stub,0.0,EXCEPTION,0.95,No bank row proposed at all - ERP entry has no corresponding settlement in the bank statement.,False
+TXN100086,BNK00088,llm-stub,0.2,EXCEPTION,0.95,Rs.1420.23 gap far exceeds policy tolerance (Rs.100 threshold) and is not explained by fee/tax/refund.,False
+TXN100096,BNK00098,llm-stub,0.2,EXCEPTION,0.95,Rs.1780.80 gap far exceeds policy tolerance (Rs.100 threshold) and is not explained by fee/tax/refund.,False
+TXN100098,,llm-stub,0.0,EXCEPTION,0.95,No bank row proposed at all - ERP entry has no corresponding settlement in the bank statement.,False
+TXN100150,BNK00152,llm-stub,0.2,EXCEPTION,0.95,Rs.3243.98 gap far exceeds policy tolerance (Rs.100 threshold) and is not explained by fee/tax/refund.,False
+TXN100198,BNK00201,llm-stub,0.2,EXCEPTION,0.95,Rs.2299.66 gap far exceeds policy tolerance (Rs.100 threshold) and is not explained by fee/tax/refund.,False
+TXN100215,BNK00221,llm-stub,0.2,EXCEPTION,0.95,Rs.2214.40 gap far exceeds policy tolerance (Rs.100 threshold) and is not explained by fee/tax/refund.,False
+TXN100254,BNK00262,llm-stub,0.2,EXCEPTION,0.95,Rs.5173.28 gap far exceeds policy tolerance (Rs.100 threshold) and is not explained by fee/tax/refund.,False
+TXN100255,BNK00263,llm-stub,0.2,EXCEPTION,0.95,Rs.3845.93 gap far exceeds policy tolerance (Rs.100 threshold) and is not explained by fee/tax/refund.,False
+TXN100321,,llm-stub,0.0,EXCEPTION,0.95,No bank row proposed at all - ERP entry has no corresponding settlement in the bank statement.,False
+TXN100354,,llm-stub,0.0,EXCEPTION,0.95,No bank row proposed at all - ERP entry has no corresponding settlement in the bank statement.,False

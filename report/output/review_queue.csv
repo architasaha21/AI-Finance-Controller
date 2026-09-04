@@ -1,0 +1,50 @@
+txn_ref,proposed_bank_ids,matcher_method,matcher_confidence,verifier_verdict,verifier_confidence,reason,escalated_to_llm
+TXN100006,BNK00007,llm-stub,0.8,REVIEW,0.3,Settlement landed 4d after ERP entry - policy allows 1d. Outside normal timing.,False
+TXN100024,BNK00025,llm-stub,0.5,REVIEW,0.3,"ref_number TXN100024 appears on 2 bank rows total, but proposal only claims 1. Unclaimed row(s): ['BNK00026']. Policy requires human review before accepting any match where a reference is reused this way.",False
+TXN100038,BNK00039,llm-stub,0.8,REVIEW,0.3,Settlement landed 4d after ERP entry - policy allows 1d. Outside normal timing.,False
+TXN100072,BNK00074,llm-stub,0.8,REVIEW,0.3,Settlement landed 4d after ERP entry - policy allows 1d. Outside normal timing.,False
+TXN100083,BNK00085,llm-stub,0.8,REVIEW,0.3,Settlement landed 2d after ERP entry - policy allows 1d. Outside normal timing.,False
+TXN100099,BNK00100,llm-stub,0.8,REVIEW,0.3,Settlement landed 4d after ERP entry - policy allows 1d. Outside normal timing.,False
+TXN100109,BNK00110,llm-stub,0.5,REVIEW,0.3,"ref_number TXN100109 appears on 2 bank rows total, but proposal only claims 1. Unclaimed row(s): ['BNK00111']. Policy requires human review before accepting any match where a reference is reused this way.",False
+TXN100110,BNK00112,llm-stub,0.8,REVIEW,0.3,Settlement landed 3d after ERP entry - policy allows 1d. Outside normal timing.,False
+TXN100115,BNK00117,llm-stub,0.8,REVIEW,0.3,Settlement landed 4d after ERP entry - policy allows 1d. Outside normal timing.,False
+TXN100128,BNK00130,llm-stub,0.8,REVIEW,0.3,Settlement landed 4d after ERP entry - policy allows 1d. Outside normal timing.,False
+TXN100132,BNK00134,llm-stub,0.8,REVIEW,0.3,Settlement landed 4d after ERP entry - policy allows 1d. Outside normal timing.,False
+TXN100143,BNK00145,llm-stub,0.8,REVIEW,0.3,Settlement landed 4d after ERP entry - policy allows 1d. Outside normal timing.,False
+TXN100163,BNK00165,llm-stub,0.8,REVIEW,0.3,Settlement landed 3d after ERP entry - policy allows 1d. Outside normal timing.,False
+TXN100164,BNK00166,llm-stub,0.8,REVIEW,0.3,Settlement landed 2d after ERP entry - policy allows 1d. Outside normal timing.,False
+TXN100186,BNK00189,llm-stub,0.8,REVIEW,0.3,Settlement landed 2d after ERP entry - policy allows 1d. Outside normal timing.,False
+TXN100195,BNK00198,llm-stub,0.8,REVIEW,0.3,Settlement landed 2d after ERP entry - policy allows 1d. Outside normal timing.,False
+TXN100200,BNK00203,llm-stub,0.5,REVIEW,0.3,"ref_number TXN100200 appears on 2 bank rows total, but proposal only claims 1. Unclaimed row(s): ['BNK00204']. Policy requires human review before accepting any match where a reference is reused this way.",False
+TXN100214,BNK00219,llm-stub,0.5,REVIEW,0.3,"ref_number TXN100214 appears on 2 bank rows total, but proposal only claims 1. Unclaimed row(s): ['BNK00220']. Policy requires human review before accepting any match where a reference is reused this way.",False
+TXN100220,BNK00226,llm-stub,0.5,REVIEW,0.3,"ref_number TXN100220 appears on 2 bank rows total, but proposal only claims 1. Unclaimed row(s): ['BNK00227']. Policy requires human review before accepting any match where a reference is reused this way.",False
+TXN100227,BNK00234,llm-stub,0.8,REVIEW,0.3,Settlement landed 3d after ERP entry - policy allows 1d. Outside normal timing.,False
+TXN100229,BNK00236,llm-stub,0.5,REVIEW,0.3,"ref_number TXN100229 appears on 2 bank rows total, but proposal only claims 1. Unclaimed row(s): ['BNK00237']. Policy requires human review before accepting any match where a reference is reused this way.",False
+TXN100236,BNK00244,llm-stub,0.8,REVIEW,0.3,Settlement landed 4d after ERP entry - policy allows 1d. Outside normal timing.,False
+TXN100260,BNK00268,llm-stub,0.8,REVIEW,0.3,Settlement landed 4d after ERP entry - policy allows 1d. Outside normal timing.,False
+TXN100261,BNK00269,llm-stub,0.8,REVIEW,0.3,Settlement landed 4d after ERP entry - policy allows 1d. Outside normal timing.,False
+TXN100285,BNK00294,llm-stub,0.8,REVIEW,0.3,Settlement landed 3d after ERP entry - policy allows 1d. Outside normal timing.,False
+TXN100299,BNK00308,llm-stub,0.8,REVIEW,0.3,Settlement landed 2d after ERP entry - policy allows 1d. Outside normal timing.,False
+TXN100300,BNK00309,llm-stub,0.8,REVIEW,0.3,Settlement landed 2d after ERP entry - policy allows 1d. Outside normal timing.,False
+TXN100307,BNK00316,llm-stub,0.8,REVIEW,0.3,Settlement landed 3d after ERP entry - policy allows 1d. Outside normal timing.,False
+TXN100309,BNK00318,llm-stub,0.8,REVIEW,0.3,Settlement landed 3d after ERP entry - policy allows 1d. Outside normal timing.,False
+TXN100310,BNK00319,llm-stub,0.8,REVIEW,0.3,Settlement landed 3d after ERP entry - policy allows 1d. Outside normal timing.,False
+TXN100315,BNK00324,llm-stub,0.8,REVIEW,0.3,Settlement landed 3d after ERP entry - policy allows 1d. Outside normal timing.,False
+TXN100320,BNK00329,llm-stub,0.8,REVIEW,0.3,Settlement landed 3d after ERP entry - policy allows 1d. Outside normal timing.,False
+TXN100323,BNK00331,llm-stub,0.8,REVIEW,0.3,Settlement landed 4d after ERP entry - policy allows 1d. Outside normal timing.,False
+TXN100329,BNK00337,llm-stub,0.8,REVIEW,0.3,Settlement landed 3d after ERP entry - policy allows 1d. Outside normal timing.,False
+TXN100334,BNK00342,llm-stub,0.8,REVIEW,0.3,Settlement landed 3d after ERP entry - policy allows 1d. Outside normal timing.,False
+TXN100335,BNK00343,llm-stub,0.8,REVIEW,0.3,Settlement landed 4d after ERP entry - policy allows 1d. Outside normal timing.,False
+TXN100345,BNK00353,llm-stub,0.8,REVIEW,0.3,Settlement landed 4d after ERP entry - policy allows 1d. Outside normal timing.,False
+TXN100346,BNK00354,llm-stub,0.5,REVIEW,0.3,"ref_number TXN100346 appears on 2 bank rows total, but proposal only claims 1. Unclaimed row(s): ['BNK00355']. Policy requires human review before accepting any match where a reference is reused this way.",False
+TXN100356,BNK00365,llm-stub,0.5,REVIEW,0.3,"ref_number TXN100356 appears on 2 bank rows total, but proposal only claims 1. Unclaimed row(s): ['BNK00366']. Policy requires human review before accepting any match where a reference is reused this way.",False
+TXN100390,BNK00400,llm-stub,0.8,REVIEW,0.3,Settlement landed 3d after ERP entry - policy allows 1d. Outside normal timing.,False
+TXN100403,BNK00413,llm-stub,0.8,REVIEW,0.3,Settlement landed 4d after ERP entry - policy allows 1d. Outside normal timing.,False
+TXN100433,BNK00443,llm-stub,0.5,REVIEW,0.3,"ref_number TXN100433 appears on 2 bank rows total, but proposal only claims 1. Unclaimed row(s): ['BNK00444']. Policy requires human review before accepting any match where a reference is reused this way.",False
+TXN100443,BNK00455,llm-stub,0.5,REVIEW,0.3,"ref_number TXN100443 appears on 2 bank rows total, but proposal only claims 1. Unclaimed row(s): ['BNK00456']. Policy requires human review before accepting any match where a reference is reused this way.",False
+TXN100444,BNK00457,llm-stub,0.8,REVIEW,0.3,Settlement landed 4d after ERP entry - policy allows 1d. Outside normal timing.,False
+TXN100450,BNK00463,llm-stub,0.8,REVIEW,0.3,Settlement landed 3d after ERP entry - policy allows 1d. Outside normal timing.,False
+TXN100475,BNK00488,llm-stub,0.8,REVIEW,0.3,Settlement landed 2d after ERP entry - policy allows 1d. Outside normal timing.,False
+TXN100478,BNK00491,llm-stub,0.8,REVIEW,0.3,Settlement landed 3d after ERP entry - policy allows 1d. Outside normal timing.,False
+TXN100484,BNK00497,llm-stub,0.8,REVIEW,0.3,Settlement landed 3d after ERP entry - policy allows 1d. Outside normal timing.,False
+TXN100485,BNK00498,llm-stub,0.5,REVIEW,0.3,"ref_number TXN100485 appears on 2 bank rows total, but proposal only claims 1. Unclaimed row(s): ['BNK00499']. Policy requires human review before accepting any match where a reference is reused this way.",False
