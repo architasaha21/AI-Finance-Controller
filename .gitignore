@@ -1,0 +1,31 @@
+# Secrets and local environment
+.env
+.env.*
+!.env.example
+
+# Local Python environments and caches
+venv/
+.venv/
+env/
+__pycache__/
+**/__pycache__/
+*.py[cod]
+
+# Local editor and operating-system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Generated live-source and temporary validation reports
+report/output_razorpay/
+report/output_razorpay_smoke/
+report/output_offline_check/
+
+# Local dashboard decisions are user-specific runtime state
+report/output/human_decisions.json
+
+# Test and coverage artifacts
+.pytest_cache/
+.coverage
+htmlcov/
